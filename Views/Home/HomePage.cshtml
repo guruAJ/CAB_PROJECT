@@ -1,0 +1,284 @@
+﻿@{
+    //ViewData["Title"] = "Log in";
+    Layout = null;                                                                             //for removing layout or for removing common navbar  from that page
+}
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/CAB_Software.styles.css" asp-append-version="true" />
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <style>
+
+
+          body,
+          html {
+              width: 100%;
+              height: 100%;
+              overflow-x: hidden;
+          }
+
+          header.masthead {
+              /* padding-top: 10rem;
+                                                                                                                                                            padding-bottom: calc(10rem - 4.5rem);*/
+              background: url("../Content/images/ArmyAviatorBg1.JPG");
+              background-position: center;
+              background-repeat: no-repeat;
+              background-attachment: scroll;
+              background-size: cover;
+          }
+
+          @@media (min-width: 1200px) {
+              header.masthead {
+                  height: 100vh;
+                  min-height: 40rem;
+                  padding-top: 4.5rem;
+                  padding-bottom: 0;
+              }
+
+                  header.masthead p {
+                      font-size: 1.15rem;
+                  }
+
+                  header.masthead h1 {
+                      font-size: 3rem;
+                  }
+          }
+
+          @@media (min-width: 1200px) {
+              header.masthead h1 {
+                  font-size: 3.5rem;
+              }
+          }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+          }
+
+
+
+                  .dropbtn {
+            background-color: #3498DB;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+          }
+
+          .dropbtn:hover, .dropbtn:focus {
+            background-color: #2980B9;
+          }
+
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+
+          .dropdown a:hover {background-color: #ddd;}
+
+          .show {display: block;}
+
+    </style>
+    <style>
+        .button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: #000000;
+        }
+        /* Green */
+        .button2 {
+            background-color: #228b22;
+        }
+        /* Blue */
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>CAB SOFTWARE</title>
+    <!-- Bootstrap core CSS-->
+    <script src="~/NewContent/vendor/jquery/jquery.min.js"></script>
+    <script src="~/Content/CustomJS/AviatorJS.js"></script>
+
+
+</head>
+<header class="masthead">
+    <div class="header">
+        <nav class="navbar navbar-expand-sm bg-dark" style="margin-top: -5rem;width:100%">
+            <!-- Links -->
+            @* <ul class="navbar-nav">*@
+
+
+
+            @*   margin-top: 21px;width: 96rem;margin-left: 0rem;*@
+
+            <div class="d-flex flex-wrap align-content-center" style="background-color:black;text-align:center;">
+
+                <span style="color:wheat">
+                    <h1 style="text-align:center;margin-left: 533px;">
+                        CAB WEB PAGE
+                    </h1>
+                </span>
+            </div>
+
+        </nav>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+
+
+                <button class="button button1" style="margin-left: -142px;">ARMY WEB</button>
+
+            </div>
+            <div class="col-8"></div>
+            <div class="col-2">
+                <button class="button button1" style="margin-left: 227px;">HOME</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <!-- Modal -->
+        <div class="col-10">  <h2 style="color:DodgerBlue;margin-left: 195px;">******COMPLAINTS ADVISORY BOARD(CAB)******(Flash Info)</h2></div>
+        <div class="col-1"></div>
+    </div>
+
+
+    <div id="accordion">
+        <div class="card">
+            <div class="row">
+                <div class="col-3  text-left card-header collapsCol" id="headingOne">
+
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Policies</button>
+                        <div id="myDropdown" class="dropdown-content">
+                             <a href="#home">Information of Cab</a>
+                            <a href="#about">Format Of Complants</a>
+                        </div>
+                    </div>
+
+
+
+                    @*<button class="button button2" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></button>*@
+                </div>
+                <div class="col-6">  <img src="~/image/chief_image.png" style="height: 166px;  width: 351px; margin-top: 0px;margin-left: 136px;" /></div>
+                <div class="col-3">
+                    @*<button class="button button2"></button>*@
+                    <div class="dropdown">
+                        <button onclick="myFunction1()" class="dropbtn">Check Status</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#home">Information of Cab</a>
+                            <a href="#about">Format Of Complants</a>
+                           @* <a href="#contact">Contact</a>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-6">
+                        <h1>ajay</h1>
+                    </div>
+                    <div class="col-6"></div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    @* </div>*@
+
+    </div>
+</header>
+</html>
+
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+
+    function myFunction1() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+<script src="~/NewContent/vendor/jquery/jquery.min.js"></script>
+<script src="~/Content/css/sweetalert.min.js"></script>
+<link href="~/Content/css/sweetalert.css" rel="stylesheet" />
+<link href="~/NewContent/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="only screen">
+<link href="~/NewContent/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" media="only screen">
+<link href="~/NewContent/css/sb-admin.css" rel="stylesheet" media="only screen">

@@ -1,0 +1,26 @@
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\bin\Debug\net6.0\appsettings.json
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\bin\Debug\net6.0\CAB Software.staticwebassets.runtime.json
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\bin\Debug\net6.0\CAB Software.exe
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\bin\Debug\net6.0\CAB Software.deps.json
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\bin\Debug\net6.0\CAB Software.runtimeconfig.json
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\bin\Debug\net6.0\CAB Software.dll
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\bin\Debug\net6.0\CAB Software.pdb
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\CAB Software.csproj.AssemblyReference.cache
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\CAB Software.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\CAB Software.AssemblyInfoInputs.cache
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\CAB Software.AssemblyInfo.cs
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\CAB Software.csproj.CoreCompileInputs.cache
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\CAB Software.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\CAB Software.RazorAssemblyInfo.cache
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\CAB Software.RazorAssemblyInfo.cs
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\scopedcss\bundle\CAB Software.styles.css
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\scopedcss\projectbundle\CAB Software.bundle.scp.css
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\CAB Software.dll
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\refint\CAB Software.dll
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\CAB Software.pdb
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\CAB Software.genruntimeconfig.cache
+C:\Users\lanmanager\source\repos\CAB Software\CAB Software\obj\Debug\net6.0\ref\CAB Software.dll
